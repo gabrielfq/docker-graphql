@@ -28,5 +28,5 @@ jobs:
          docker build -t gabrielfq/graphql:0.0.2 .
     - name: Push docker image
       run: |
-        docker push gabrielfq/graphql:0.0.2 .
+        docker push gabrielfq/graphql:0.0.2
 
